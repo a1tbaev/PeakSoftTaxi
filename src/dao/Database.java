@@ -6,10 +6,12 @@ import classes.Taxi;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Database {
-    List<Client> clients = new ArrayList<>();
-    List<Driver> drivers = new ArrayList<>();
-    List<Taxi> taxiList = new ArrayList<>();
+    Set<Client> clients = new LinkedHashSet<>();
+    Set<Driver> drivers = new LinkedHashSet<>();
+    Set<Taxi> taxiList = new LinkedHashSet<>();
 }
